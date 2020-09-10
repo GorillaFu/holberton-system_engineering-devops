@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type d -name 'holberton' -exec rm -r {} +
+rmdir /tmp/holberton/
