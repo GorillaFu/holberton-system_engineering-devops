@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+# prints all times on a clock from 0:01 - 12:59
+h=0
+m=60
+while [[ "$h" -ne 13 || "$m" -ne 60 ]]
+do
+    if [ "$m" -eq 60 ]; then
+    ((m=1))
+    echo "Hour: $h"
+    ((h++))
+    fi
+    echo "$m"
+    ((m++))
+done
