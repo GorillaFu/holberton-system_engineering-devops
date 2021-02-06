@@ -2,20 +2,20 @@
 # Write a Bash script that displays:
 # script that gives you information about the holbertonschool file.
 
-name="holbertonschool"
-if [ -e "$name" ]
+f="holbertonschool"
+if [ -e "$f" ]
 then
-    echo "$name file exists"
-    if [ -s "$name" ]
+    echo "$f file exists"
+    if [ -s "$f" ]
     then
-    echo "$name file is not empty"
+    echo "$f file is not empty"
     else
-    echo "$name file is empty"
+    echo "$f file is empty"
     fi
-    if [ -f "$name" ]
+    if [ -f "$f" ]
     then
-    echo "$name is a regular file"
+    echo "$f is a regular file"
     fi
 else
-    echo "$name file does not exist"
+    echo "$f file does not exist"
 fi
