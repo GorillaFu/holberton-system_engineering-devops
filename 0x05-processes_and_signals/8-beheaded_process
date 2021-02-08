@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# script that kills To infinity and beyond process
+kill -SIGKILL "$(pgrep -f 7-highlander)"
