@@ -2,7 +2,7 @@
 # prints to infinity and beyond forever, prints i am invincible when sigterm
 trap "echo 'i am invincible!!!'" SIGTERM
 
-while :
+while true
 do
    echo "To infinity and beyond"
    sleep 2
