@@ -6,6 +6,7 @@ function sigPrint()
 	echo "i am invincible!!!"
 }
 
+
 trap sigPrint SIGTERM
 
 for (( ; ; ))
