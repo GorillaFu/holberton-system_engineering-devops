@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+# prints to infinity and beyond forever, prints i am invincible when sigterm
+
+function sigPrint()
+{
+	echo "i am invincible!!!"
+}
+
+trap sigPrint SIGTERM
+
+for (( ; ; ))
+do
+   echo "To infinity and beyond"
+   sleep 2
+done
