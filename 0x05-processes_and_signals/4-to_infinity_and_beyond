@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # print a line of text infinitely w bash
 for (( ; ; ))
 do
