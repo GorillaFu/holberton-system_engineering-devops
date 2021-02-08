@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # prints to infinity and beyond forever, prints i am invincible when sigterm
-trap "echo 'i am invincible!!!'" SIGTERM
+trap "echo 'I am invincible!!!'" SIGTERM
 
 while true
 do
