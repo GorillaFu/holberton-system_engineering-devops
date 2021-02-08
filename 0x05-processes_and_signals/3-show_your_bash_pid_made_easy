@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Bash script that displays PIDs of bash processes w/o using ps command
+pgrep bash -l
