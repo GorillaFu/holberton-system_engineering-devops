@@ -1,0 +1,6 @@
+#!/bin/bash
+# print a line of text infinitely w bash
+for (( ; ; ))
+do
+   echo "To infinity and beyond"
+done
