@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 # prints to infinity and beyond forever, prints i am invincible when sigterm
+# shellcheck disable=SC2009
 
 function sigPrint()
 {
