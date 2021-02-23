@@ -1,4 +1,5 @@
 #!/bin/bash
+# if argument provided, ping ip, else print usage
 if [ $# == 1 ]
 then
     ping -c 5 $1
