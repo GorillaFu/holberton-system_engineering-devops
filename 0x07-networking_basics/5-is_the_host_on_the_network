@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # if argument provided, ping ip, else print usage
 if [ $# == 1 ]
 then
