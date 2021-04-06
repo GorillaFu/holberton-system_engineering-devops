@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# install nginx, write string to html
+
+sudo apt-get -y update
+sudo apt-get -y install nginx
+sudo echo "Holberton School" | sudo tee /var/www/html/index.nginx-debian.html
