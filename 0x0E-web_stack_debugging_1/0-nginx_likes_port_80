@@ -1,0 +1,4 @@
+#!/bin/bash
+# makes it so listening port 80 is not refused 
+sed -i "s/sites-enabled/sites-available" /etc/nginx/nginx.conf
+sudo service nginx restart
