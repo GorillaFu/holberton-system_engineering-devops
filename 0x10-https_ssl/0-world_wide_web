@@ -17,3 +17,4 @@ else
     do
     print_res $domain $subdomain
     done
+fi
